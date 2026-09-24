@@ -4007,7 +4007,7 @@
 		(uuid "f8d37194-1346-47de-81e1-55c2fdc4a2a3")
 	)
 	(junction
-		(at 163.83 21.59)
+		(at 166.37 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb6b60ad-fea0-425b-baa1-69840cadd280")
@@ -4472,7 +4472,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 29.21) (xy 156.21 29.21)
+			(xy 166.37 29.21) (xy 156.21 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4519,6 +4519,16 @@
 			(type default)
 		)
 		(uuid "7bbbd572-7ada-4162-a7d9-313d2991ca56")
+	)
+	(wire
+		(pts
+			(xy 163.83 21.59) (xy 167.64 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b49ca0-c06b-45f6-8aee-31858df52d18")
 	)
 	(wire
 		(pts
@@ -5632,7 +5642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0250b9f4-da62-4aaa-aa5d-2e029c491a58")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR016"
 			(at 95.25 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5692,7 +5702,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR07")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5710,7 +5720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05267e95-d83d-4b1b-9017-2deb1a1948cd")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR041"
 			(at 214.63 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5771,7 +5781,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR021")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5789,7 +5799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06923b8f-74d4-406e-8827-0963d68b727c")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR035"
 			(at 167.64 127 0)
 			(hide yes)
 			(show_name no)
@@ -5849,7 +5859,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR056")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5867,7 +5877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "094c0796-1ddb-42e7-bccd-5fd9a7f81804")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR05"
 			(at 62.23 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5928,7 +5938,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR040")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5946,7 +5956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13197953-6cc1-4912-8c7e-f11c972f0e9d")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR014"
 			(at 87.63 16.51 0)
 			(hide yes)
 			(show_name no)
@@ -6007,7 +6017,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR038")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6024,7 +6034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13d17739-7d9c-4fa4-9eb2-c200d4566224")
-		(property "Reference" "PPTC1"
+		(property "Reference" "F1"
 			(at 217.17 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6034,7 +6044,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "2.0A Hold / 3.5A Trip (16V+)"
 			(at 206.502 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -6045,7 +6055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+		(property "Footprint" "Fuse:Fuse_2920_7451Metric"
 			(at 212.09 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6099,7 +6109,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "PPTC1")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -6117,7 +6127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14a222b9-10c7-4852-8d0e-a6cfbe8100f7")
-		(property "Reference" "C100NF4"
+		(property "Reference" "C4"
 			(at 52.07 123.1901 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6193,7 +6203,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "C100NF4")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6211,7 +6221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a52a533-844e-458a-bd1e-711a024c1803")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR019"
 			(at 110.49 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6272,7 +6282,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR032")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6290,7 +6300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bfa48d6-bcb8-4ed7-905b-0a76bf071d17")
-		(property "Reference" "C100NF3"
+		(property "Reference" "C3"
 			(at 50.8 107.9501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6366,7 +6376,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "C100NF3")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6384,7 +6394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1eaf4e11-ef6e-4541-91ee-0569770c6d09")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR09"
 			(at 64.77 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6445,7 +6455,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR050")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6463,7 +6473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f93e761-7ca2-40d2-8ceb-0d66dc74ce9f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR08"
 			(at 52.07 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6524,7 +6534,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR028")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6543,7 +6553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2111360e-b405-4386-a2e9-453b537d6f81")
-		(property "Reference" "R1K2"
+		(property "Reference" "R4"
 			(at 199.39 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6619,7 +6629,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "R1K2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6637,7 +6647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "215462e0-ef89-4ec7-ab86-fd7bb5969d52")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR02"
 			(at 46.99 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6698,7 +6708,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR051")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6716,7 +6726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23656eac-461b-4936-b59c-d15e35848ae4")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR017"
 			(at 97.79 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6776,7 +6786,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR02")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6794,7 +6804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "270b41ef-c29c-43ec-af5b-a246d871aa71")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR030"
 			(at 162.56 127 0)
 			(hide yes)
 			(show_name no)
@@ -6854,7 +6864,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR08")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6872,7 +6882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b553fa0-c32f-41c3-ae0e-8305630520f6")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR010"
 			(at 54.61 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6933,7 +6943,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR049")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6951,7 +6961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35174261-7ab6-42d0-9b52-a6413fee0bf3")
-		(property "Reference" "R10K3"
+		(property "Reference" "R6"
 			(at 232.41 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7025,7 +7035,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "R10K3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7043,7 +7053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38ba2266-d505-4de0-b8cd-6e267469dcb8")
-		(property "Reference" "M2_2"
+		(property "Reference" "H2"
 			(at 128.27 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7054,7 +7064,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "M2"
 			(at 128.27 157.4799 0)
 			(hide yes)
 			(show_name no)
@@ -7116,7 +7126,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "M2_2")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -7134,7 +7144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b57a72e-330a-4487-89a5-e58cbec7e485")
-		(property "Reference" "C100NF5"
+		(property "Reference" "C5"
 			(at 53.34 85.0901 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7210,7 +7220,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "C100NF5")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7228,7 +7238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bd80d50-157c-4f0f-891a-9766604717f4")
-		(property "Reference" "C100NF2"
+		(property "Reference" "C2"
 			(at 50.8 30.4801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7304,7 +7314,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "C100NF2")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7322,7 +7332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ca11f5e-3222-4f94-9ef5-dcb6040f62f3")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR033"
 			(at 165.1 127 0)
 			(hide yes)
 			(show_name no)
@@ -7382,7 +7392,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR09")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -7401,7 +7411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ee76b8e-5a3c-4893-90f1-e9c4b60561b4")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR047"
 			(at 224.79 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7462,7 +7472,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR053")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7470,7 +7480,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 163.83 21.59 270)
+		(at 167.64 21.59 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7480,8 +7490,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41e961a7-7347-4eb0-bf24-46c9a09fbe51")
-		(property "Reference" "#PWR011"
-			(at 160.02 21.59 0)
+		(property "Reference" "#PWR031"
+			(at 163.83 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7492,7 +7502,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 167.64 21.5899 90)
+			(at 171.45 21.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7503,7 +7513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 21.59 0)
+			(at 167.64 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7514,7 +7524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 21.59 0)
+			(at 167.64 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7525,7 +7535,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 163.83 21.59 0)
+			(at 167.64 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7541,7 +7551,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR011")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7559,7 +7569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43b64ae1-749a-4d3c-bc7b-db59cee5a4cd")
-		(property "Reference" "LIGHT1"
+		(property "Reference" "J15"
 			(at 218.44 111.7601 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7635,7 +7645,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "LIGHT1")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -7653,7 +7663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44d36eb1-6637-44c6-8422-96dd8bef014c")
-		(property "Reference" "VL53L5X_R1"
+		(property "Reference" "J1"
 			(at 31.75 49.5301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7664,7 +7674,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VL53L5X_RIGHT"
+		(property "Value" "VL53L5X_R"
 			(at 31.75 46.9901 0)
 			(hide yes)
 			(show_name no)
@@ -7738,7 +7748,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "VL53L5X_R1")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7756,7 +7766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4970c1b9-c824-43ce-a773-80c550bb42a6")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR048"
 			(at 224.79 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7817,7 +7827,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR024")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7835,7 +7845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49c00600-ea9c-424b-a5e9-c2972e9db55f")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR028"
 			(at 156.21 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7895,7 +7905,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR020")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7913,7 +7923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a8383af-df43-4eb0-9c2e-e48492ca572d")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR013"
 			(at 76.2 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7974,7 +7984,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8090,7 +8100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ec1a8c5-5dc2-4dd3-9982-1b9cca762bff")
-		(property "Reference" "ESP32_R1"
+		(property "Reference" "J11"
 			(at 148.59 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8100,7 +8110,7 @@
 				)
 			)
 		)
-		(property "Value" "ESP32_RIGHT"
+		(property "Value" "ESP32_R"
 			(at 148.59 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8224,7 +8234,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "ESP32_R1")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -8242,7 +8252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "674e8260-07b5-47e3-beec-0a8674fb4128")
-		(property "Reference" "3V3OUT1"
+		(property "Reference" "U1"
 			(at 156.21 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8308,7 +8318,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "3V3OUT1")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8326,7 +8336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72f6d040-1470-464c-804d-b398f3cf64ad")
-		(property "Reference" "VL53L5X_L1"
+		(property "Reference" "J3"
 			(at 36.83 101.6001 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8337,7 +8347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VL53L5X_LEFT"
+		(property "Value" "VL53L5X_L"
 			(at 36.83 99.0601 0)
 			(hide yes)
 			(show_name no)
@@ -8411,7 +8421,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "VL53L5X_L1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8429,7 +8439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "743f43ba-8818-4dd9-82c2-cc7a86a21fad")
-		(property "Reference" "C10UF1"
+		(property "Reference" "C7"
 			(at 152.4 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8439,7 +8449,7 @@
 				)
 			)
 		)
-		(property "Value" "10 micro F"
+		(property "Value" "10uF"
 			(at 152.4 26.67 90)
 			(hide yes)
 			(show_name no)
@@ -8503,7 +8513,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "C10UF1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8521,7 +8531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75da3daf-b10c-4a57-b04d-712726ca423a")
-		(property "Reference" "GND2"
+		(property "Reference" "J13"
 			(at 170.18 137.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8600,7 +8610,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "GND2")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -8619,7 +8629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76b93bca-95bd-4e25-9b25-c245a89ca1fe")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR038"
 			(at 201.93 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8679,7 +8689,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR054")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8696,7 +8706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "789de0be-c310-47f9-ad91-240ce13be4c2")
-		(property "Reference" "MOTOR1"
+		(property "Reference" "J16"
 			(at 236.22 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8794,7 +8804,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "MOTOR1")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -8813,7 +8823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aee3ab2-5643-4b4d-b0f7-552c4d9f8a47")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR045"
 			(at 234.95 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8874,7 +8884,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR042")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8893,7 +8903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cd7f3bb-90bb-4ea5-9af8-af3cd380e121")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 217.17 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8953,7 +8963,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8971,7 +8981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "819a7cca-e259-4814-9d12-a310d8b8ab38")
-		(property "Reference" "POWER1"
+		(property "Reference" "J14"
 			(at 208.28 120.904 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8981,7 +8991,7 @@
 				)
 			)
 		)
-		(property "Value" "Power Input"
+		(property "Value" "POWER"
 			(at 208.28 123.444 90)
 			(hide yes)
 			(show_name no)
@@ -9045,7 +9055,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "POWER1")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -9064,7 +9074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83cceaa3-9324-428f-9579-7e61fb188255")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR046"
 			(at 224.79 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9125,7 +9135,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR043")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -9144,7 +9154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84ce44b4-5668-4dd4-87e4-57a359b3e15b")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR026"
 			(at 160.02 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9205,7 +9215,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR010")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9223,7 +9233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "853abe08-91af-4d92-b3dd-0d58cc88cdd4")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR024"
 			(at 148.59 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -9284,7 +9294,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR019")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9302,7 +9312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "858816cb-2c53-407b-97f6-b1f831834df9")
-		(property "Reference" "3V3"
+		(property "Reference" "J6"
 			(at 78.74 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9313,7 +9323,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3V Socket"
+		(property "Value" "3V"
 			(at 78.74 142.2399 90)
 			(hide yes)
 			(show_name no)
@@ -9381,7 +9391,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "3V3")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -9399,7 +9409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85d41e23-5e3a-4ead-b777-560df33455f5")
-		(property "Reference" "VEML7700"
+		(property "Reference" "J2"
 			(at 36.83 25.4001 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9481,7 +9491,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "VEML7700")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9499,7 +9509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86cfc259-2398-443f-8c6e-7ff8dd9e8f9e")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR015"
 			(at 87.63 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -9560,7 +9570,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR041")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9578,7 +9588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87b12122-ea35-4523-b7f2-5b63419b40ab")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR07"
 			(at 62.23 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9639,7 +9649,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR029")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9657,7 +9667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87be6263-d32d-434c-808a-88e5d930b039")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR023"
 			(at 114.3 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -9718,7 +9728,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR06")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9834,7 +9844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b9a9935-49e9-4df8-aba3-9d426243f8f7")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR039"
 			(at 201.93 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9894,7 +9904,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR055")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -9912,7 +9922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c1055de-7563-4d44-8aec-6b6b43c11eb4")
-		(property "Reference" "GND1"
+		(property "Reference" "J8"
 			(at 102.87 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9991,7 +10001,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "GND1")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -10009,7 +10019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cd44832-9e68-4156-be35-486586099b26")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 71.12 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10070,7 +10080,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR013")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10088,7 +10098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e4175f7-69ff-42b4-8141-de99706d963a")
-		(property "Reference" "R101"
+		(property "Reference" "R2"
 			(at 198.12 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10164,7 +10174,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "R101")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10182,7 +10192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f1c5c64-9e1d-433e-acce-ca496b4e8978")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR06"
 			(at 52.07 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -10243,7 +10253,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR039")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10261,7 +10271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90919388-53ca-4fa4-9b20-63a0dd0f9e13")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 73.66 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10321,7 +10331,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10339,7 +10349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91538a53-3a8e-4c09-9f73-9146e22172ca")
-		(property "Reference" "VL53L5X_M1"
+		(property "Reference" "J5"
 			(at 39.37 78.7401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10350,7 +10360,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VL53L5X_MID"
+		(property "Value" "VL53L5X_M"
 			(at 39.37 76.2001 0)
 			(hide yes)
 			(show_name no)
@@ -10424,7 +10434,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "VL53L5X_M1")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -10442,7 +10452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92026111-4540-4c20-9d52-1117e652bb0b")
-		(property "Reference" "R102"
+		(property "Reference" "R7"
 			(at 238.76 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10518,7 +10528,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "R102")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10536,7 +10546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94ce67ee-73c1-445d-854c-ddd1bbe3f9b3")
-		(property "Reference" "HC-SR04_M1"
+		(property "Reference" "J4"
 			(at 38.1 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10547,7 +10557,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HC-SR04_MID"
+		(property "Value" "HC-SR04_M"
 			(at 38.1 123.1899 0)
 			(hide yes)
 			(show_name no)
@@ -10618,7 +10628,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "HC-SR04_M1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -10636,7 +10646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9785669f-5e93-4178-9343-4ce939e5ec29")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 165.1 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10696,7 +10706,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -10714,7 +10724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98811bda-7766-463a-863c-77a417af0dc3")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR01"
 			(at 57.15 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10775,7 +10785,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR052")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10793,7 +10803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c03cd0a-85f6-49b8-9566-67f66f1d4424")
-		(property "Reference" "C100NF1"
+		(property "Reference" "C1"
 			(at 45.72 55.8801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10869,7 +10879,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "C100NF1")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -10887,7 +10897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e2ff028-c3ff-4187-9389-f5c42d71a993")
-		(property "Reference" "C100NF6"
+		(property "Reference" "C6"
 			(at 97.79 41.9101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10963,7 +10973,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "C100NF6")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10981,7 +10991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a75b87ac-1522-44d1-bdf2-6750aaec0055")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR022"
 			(at 124.46 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11042,7 +11052,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR03")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11059,7 +11069,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a912c3b6-394f-40e9-8d72-b092a123a32e")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 201.295 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -11119,7 +11129,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -11137,7 +11147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad20ca36-d13c-435a-a146-71f9d63dfaa8")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 212.725 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11198,7 +11208,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -11217,7 +11227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae4e7633-04c4-4d15-8924-4f594f89a9d8")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR027"
 			(at 160.02 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -11278,7 +11288,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR012")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11296,7 +11306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b00034cb-38a8-451f-a0fd-b65ef2cc221b")
-		(property "Reference" "M2_3"
+		(property "Reference" "H3"
 			(at 158.75 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11307,7 +11317,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "M2"
 			(at 158.75 157.4799 0)
 			(hide yes)
 			(show_name no)
@@ -11369,7 +11379,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "M2_3")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -11386,7 +11396,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b142671d-28e3-4b22-9ccf-6cea84d358ea")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR040"
 			(at 203.2 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11447,7 +11457,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR05")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -11465,7 +11475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1d94c90-0a15-454b-b3d5-a56c9be574d9")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR04"
 			(at 52.07 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11526,7 +11536,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR031")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -11544,7 +11554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b25bdeea-88a3-432d-a47f-0f25473e9b91")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR037"
 			(at 184.15 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -11605,7 +11615,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR022")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -11623,7 +11633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2b490e8-c8ee-43fc-9480-474d34a791fc")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR034"
 			(at 167.64 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -11684,7 +11694,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR030")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11702,7 +11712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b51cf339-8ad1-48f2-be85-c2afcf013ceb")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR018"
 			(at 100.33 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -11762,7 +11772,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR04")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11781,7 +11791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b851631e-b622-4359-92f1-2f13836641d6")
-		(property "Reference" "R10K2"
+		(property "Reference" "R5"
 			(at 214.63 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11857,7 +11867,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "R10K2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -11875,7 +11885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc98bcc2-fb95-4c72-8e42-8c11fcd177c7")
-		(property "Reference" "5V1"
+		(property "Reference" "J12"
 			(at 170.18 123.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11886,7 +11896,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5V Socket"
+		(property "Value" "5V"
 			(at 170.18 125.7299 90)
 			(hide yes)
 			(show_name no)
@@ -11954,7 +11964,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "5V1")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -11972,7 +11982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1d136c4-748c-4979-8284-33aaee1d19cd")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR03"
 			(at 62.23 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -12033,7 +12043,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR037")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -12052,7 +12062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2b12774-9197-4248-b5e3-a3c761a66402")
-		(property "Reference" "R1K1"
+		(property "Reference" "R3"
 			(at 199.39 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12128,7 +12138,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "R1K1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -12146,7 +12156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2e316f0-2866-4c50-bacb-d26598ca3f68")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR042"
 			(at 210.82 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -12207,7 +12217,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR01")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -12329,7 +12339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d61e3479-d0b3-4ab8-97be-f3c19568ef32")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR020"
 			(at 100.33 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12390,7 +12400,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR036")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12408,7 +12418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dca0ffd4-c7f2-4390-91c8-7433c7d594a0")
-		(property "Reference" "BNO085"
+		(property "Reference" "J7"
 			(at 83.82 29.2101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12508,7 +12518,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "BNO085")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -12525,7 +12535,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcc36b61-1bd9-4189-ace6-9a3baf810f99")
-		(property "Reference" "ESP32_L1"
+		(property "Reference" "J10"
 			(at 123.19 46.228 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12536,7 +12546,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32_LEFT"
+		(property "Value" "ESP32_L"
 			(at 123.19 48.768 0)
 			(hide yes)
 			(show_name no)
@@ -12661,7 +12671,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "ESP32_L1")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -12679,7 +12689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd7c8814-6c76-4dfc-952a-acfc021b3db3")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR049"
 			(at 254 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -12740,7 +12750,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR026")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -12758,7 +12768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e02d41f6-72e3-486d-9695-b4095e3221ca")
-		(property "Reference" "UART1"
+		(property "Reference" "J9"
 			(at 121.92 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12768,7 +12778,7 @@
 				)
 			)
 		)
-		(property "Value" "EXTRA GPIO"
+		(property "Value" "UART"
 			(at 121.92 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -12838,7 +12848,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "UART1")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -12846,7 +12856,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 163.83 25.4 0)
+		(at 166.37 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12856,8 +12866,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2ea92d7-1528-4b33-b2ef-4f9a5e0b857c")
-		(property "Reference" "C10UF2"
-			(at 167.64 24.1299 0)
+		(property "Reference" "C8"
+			(at 170.18 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12867,8 +12877,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 Micro F"
-			(at 167.64 26.6699 0)
+		(property "Value" "10uF"
+			(at 170.18 26.6699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12880,7 +12890,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 164.7952 29.21 0)
+			(at 167.3352 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12891,7 +12901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 25.4 0)
+			(at 166.37 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12902,7 +12912,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 163.83 25.4 0)
+			(at 166.37 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12913,7 +12923,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 163.83 25.4 0)
+			(at 166.37 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12932,7 +12942,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "C10UF2")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -12950,7 +12960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea8dd746-ac5e-4f0c-885b-cf48335e7f77")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR036"
 			(at 179.07 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -13011,7 +13021,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR023")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -13029,7 +13039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1174711-b1f4-46a8-9aff-0024227d096e")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR029"
 			(at 162.56 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -13090,7 +13100,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR034")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -13108,7 +13118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2273db9-0eba-4312-9884-41f613ecfc35")
-		(property "Reference" "R10K1"
+		(property "Reference" "R1"
 			(at 189.23 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13118,7 +13128,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "10k"
 			(at 189.23 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13181,7 +13191,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "R10K1")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -13199,7 +13209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f43cf6df-ed82-4059-915e-34ac061891cd")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR025"
 			(at 160.02 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -13260,7 +13270,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR016")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13278,7 +13288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4e8505a-3518-44c5-b98a-9200c288da83")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR044"
 			(at 222.25 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13339,7 +13349,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR025")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -13357,7 +13367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f82a7656-d660-45cc-afa7-4cc2948a072b")
-		(property "Reference" "BUZZER1"
+		(property "Reference" "BZ1"
 			(at 270.51 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13422,7 +13432,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "BUZZER1")
+					(reference "BZ1")
 					(unit 1)
 				)
 			)
@@ -13440,7 +13450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcb3c587-a829-4b84-8828-50999ee38963")
-		(property "Reference" "M2_1"
+		(property "Reference" "H1"
 			(at 97.79 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13451,7 +13461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "M2"
 			(at 97.79 158.7499 0)
 			(hide yes)
 			(show_name no)
@@ -13513,7 +13523,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "M2_1")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -13531,7 +13541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff31f715-9ee0-4e64-9f06-b2dd4f0495f4")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR021"
 			(at 124.46 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -13592,7 +13602,7 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
-					(reference "#PWR027")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
