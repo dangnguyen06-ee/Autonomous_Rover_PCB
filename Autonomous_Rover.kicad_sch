@@ -163,193 +163,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -3875,10 +3688,22 @@
 		(uuid "0ef5e663-2b4d-4b67-b8a5-f92cfd429351")
 	)
 	(junction
+		(at 243.84 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1744e968-06d4-4bef-bfae-232900ca00fd")
+	)
+	(junction
 		(at 148.59 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c95cfff-0668-4206-a1b7-14696fc40736")
+	)
+	(junction
+		(at 232.41 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22c4dac9-e24b-4955-94b2-0064c0dc83e6")
 	)
 	(junction
 		(at 156.21 29.21)
@@ -3891,6 +3716,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33bb81fe-2bff-4acd-becc-4d00ec7b0130")
+	)
+	(junction
+		(at 243.84 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37cbb17e-596a-4b25-ad28-593cbed6e7e2")
 	)
 	(junction
 		(at 57.15 87.63)
@@ -3929,6 +3760,12 @@
 		(uuid "6696d98e-d8ba-4fe8-a3fd-436ee98b6fed")
 	)
 	(junction
+		(at 207.01 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "727fbdbe-862c-4b50-aea1-71c57e3dcfff")
+	)
+	(junction
 		(at 55.88 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3945,6 +3782,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82f0ca7c-ee09-40c3-9f12-162c8b5e8464")
+	)
+	(junction
+		(at 227.33 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "986e3c2d-d479-4318-8f08-a0cdb4609d40")
 	)
 	(junction
 		(at 57.15 80.01)
@@ -3971,6 +3814,12 @@
 		(uuid "b9db8ca8-3d5c-48ba-8271-fb6f6420295a")
 	)
 	(junction
+		(at 232.41 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c199b980-77c8-4808-993b-0cdef42c201d")
+	)
+	(junction
 		(at 54.61 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3981,6 +3830,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8ffc96f-9e17-422e-874b-45e56d1a5780")
+	)
+	(junction
+		(at 245.11 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdaa7d4d-7049-4a11-b6ca-d9b3a1dedbe2")
 	)
 	(junction
 		(at 250.19 83.82)
@@ -4001,6 +3856,24 @@
 		(uuid "e73d32b9-6c6b-4a1d-830e-d74b45232682")
 	)
 	(junction
+		(at 227.33 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9916a50-e8d2-4edb-942c-7db7c0d3070a")
+	)
+	(junction
+		(at 207.01 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4730466-d443-47f8-8a74-2713fbfcb619")
+	)
+	(junction
+		(at 245.11 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4fd6e97-2ab0-41ef-970a-f5397c66b665")
+	)
+	(junction
 		(at 101.6 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4015,6 +3888,10 @@
 	(no_connect
 		(at 153.67 85.09)
 		(uuid "090144e1-46cd-44ba-94c8-592fdd5d62b4")
+	)
+	(no_connect
+		(at 120.65 52.07)
+		(uuid "11af3186-f367-4b18-8b60-b4e32f95488c")
 	)
 	(no_connect
 		(at 153.67 97.79)
@@ -4122,6 +3999,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 138.43) (xy 248.92 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118f3040-1b42-4356-8b33-f23dea9606b0")
+	)
+	(wire
+		(pts
 			(xy 158.75 74.93) (xy 153.67 74.93)
 		)
 		(stroke
@@ -4149,6 +4036,16 @@
 			(type default)
 		)
 		(uuid "17663fda-5e4d-4ed0-9fdb-a3625bb9359a")
+	)
+	(wire
+		(pts
+			(xy 231.14 24.13) (xy 231.14 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f235b01-03af-4bcd-8516-2568ea654152")
 	)
 	(wire
 		(pts
@@ -4242,7 +4139,17 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 111.76) (xy 200.66 111.76)
+			(xy 241.3 138.43) (xy 245.11 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3063aae0-e73c-4676-a481-63c7ae468f30")
+	)
+	(wire
+		(pts
+			(xy 210.82 111.76) (xy 207.01 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4352,6 +4259,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 24.13) (xy 231.14 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43016c4f-ef84-4697-89ab-bea07b8528c8")
+	)
+	(wire
+		(pts
 			(xy 105.41 100.33) (xy 120.65 100.33)
 		)
 		(stroke
@@ -4359,6 +4276,16 @@
 			(type default)
 		)
 		(uuid "43d8f62a-f8a6-4a51-ae3d-f85ee2b8ba3f")
+	)
+	(wire
+		(pts
+			(xy 248.92 118.11) (xy 248.92 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "479313c6-86a3-4a88-bd95-5f5f674b99b5")
 	)
 	(wire
 		(pts
@@ -4432,6 +4359,36 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 138.43) (xy 248.92 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b89ff6-0bcd-47c2-85ff-58447c995709")
+	)
+	(wire
+		(pts
+			(xy 210.82 104.14) (xy 210.82 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b398af1-518a-43fc-818a-56a594059ed8")
+	)
+	(wire
+		(pts
+			(xy 243.84 125.73) (xy 248.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e69b757-f267-4512-9117-2ed0d5e3d7ad")
+	)
+	(wire
+		(pts
 			(xy 210.82 146.05) (xy 210.82 144.78)
 		)
 		(stroke
@@ -4439,6 +4396,16 @@
 			(type default)
 		)
 		(uuid "64dc93e5-f525-4165-afaf-abbd20b0944e")
+	)
+	(wire
+		(pts
+			(xy 224.79 125.73) (xy 232.41 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67788243-da38-4936-b4e5-ba349fba0b7d")
 	)
 	(wire
 		(pts
@@ -4492,6 +4459,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 146.05) (xy 248.92 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757d75d9-138d-45d3-9e9a-3f1214e31133")
+	)
+	(wire
+		(pts
 			(xy 220.98 36.83) (xy 231.14 36.83)
 		)
 		(stroke
@@ -4512,6 +4489,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 118.11) (xy 232.41 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ec8189-3a61-411b-8b0a-cc8d65e07da8")
+	)
+	(wire
+		(pts
 			(xy 105.41 97.79) (xy 120.65 97.79)
 		)
 		(stroke
@@ -4522,6 +4509,29 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 241.3 146.05) (xy 245.11 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df2d30d-550f-401e-bc58-7336e332f9c1")
+	)
+	(wire
+		(pts
+			(xy 163.83 21.59) (xy 167.64 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b49ca0-c06b-45f6-8aee-31858df52d18")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 105.41 69.85) (xy 120.65 69.85)
 		)
 		(stroke
@@ -4602,6 +4612,36 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 31.75) (xy 227.33 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92eb3926-4a9b-49aa-a144-679b33ea7b2e")
+	)
+	(wire
+		(pts
+			(xy 227.33 31.75) (xy 231.14 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93da981c-6387-42ef-8a26-68f83ffbba8e")
+	)
+	(wire
+		(pts
+			(xy 205.74 104.14) (xy 207.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b8de1a-f1f9-4a3c-a398-3b92db84dd34")
+	)
+	(wire
+		(pts
 			(xy 58.42 80.01) (xy 46.99 80.01)
 		)
 		(stroke
@@ -4639,6 +4679,26 @@
 			(type default)
 		)
 		(uuid "ad4e6a62-33b7-434c-b210-cf9ce79ce750")
+	)
+	(wire
+		(pts
+			(xy 232.41 125.73) (xy 243.84 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afbd6f9e-1bae-4167-a43d-da85fa77fe83")
+	)
+	(wire
+		(pts
+			(xy 207.01 111.76) (xy 200.66 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b64e474c-39d8-4d5d-822f-46063db593ac")
 	)
 	(wire
 		(pts
@@ -4699,6 +4759,16 @@
 			(type default)
 		)
 		(uuid "c32ad483-d984-494c-b09f-ac8d36f59944")
+	)
+	(wire
+		(pts
+			(xy 232.41 118.11) (xy 248.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c35733dc-afcf-495e-bdde-8911ef82298d")
 	)
 	(wire
 		(pts
@@ -4799,6 +4869,16 @@
 			(type default)
 		)
 		(uuid "ece30102-de4f-468e-9da5-4e2af43904d1")
+	)
+	(wire
+		(pts
+			(xy 207.01 104.14) (xy 210.82 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede602c2-677f-4236-b377-25dcbcfa8689")
 	)
 	(wire
 		(pts
@@ -4960,16 +5040,6 @@
 		)
 		(uuid "19c4135b-e596-4970-aceb-a2c5de371346")
 	)
-	(label "UART0_RX"
-		(at 120.65 120.65 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1a46ae80-5b3c-4631-9adb-b0f5cadde591")
-	)
 	(label "GPIO6"
 		(at 119.38 29.21 180)
 		(effects
@@ -4990,7 +5060,7 @@
 		)
 		(uuid "21ed11fe-acbe-4bfd-b8e0-d0ce433ebbe4")
 	)
-	(label "BUZZ"
+	(label "BUZZ_PWM"
 		(at 236.22 68.58 180)
 		(effects
 			(font
@@ -5010,7 +5080,7 @@
 		)
 		(uuid "2786642e-0396-4394-b2e5-a7c5eaf7a080")
 	)
-	(label "LIGHT_EN"
+	(label "LIGHT_PWM"
 		(at 195.58 92.71 0)
 		(effects
 			(font
@@ -5020,7 +5090,7 @@
 		)
 		(uuid "2a6b8509-e670-4049-a13a-1ba2312c800f")
 	)
-	(label "BUZZ"
+	(label "LIGHT_PWM"
 		(at 158.75 95.25 0)
 		(effects
 			(font
@@ -5029,16 +5099,6 @@
 			(justify left bottom)
 		)
 		(uuid "2be1dfc0-7322-40c8-8cfb-04db8be08aa5")
-	)
-	(label "UART1_TX"
-		(at 123.19 120.65 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2ca54a3a-27e5-426b-b2f8-75eaa0a6d2d9")
 	)
 	(label "ECHO"
 		(at 71.12 120.65 180)
@@ -5090,6 +5150,16 @@
 		)
 		(uuid "5518c459-21c1-4d50-939c-58b5a6d38939")
 	)
+	(label "UART1_RX"
+		(at 248.92 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56f3dbc6-a4b3-41b9-87ef-da6c224dc039")
+	)
 	(label "CS"
 		(at 105.41 62.23 0)
 		(effects
@@ -5100,7 +5170,27 @@
 		)
 		(uuid "5d3c6692-1949-4b14-a634-b321d2abd1b8")
 	)
-	(label "LIGHT_EN"
+	(label "UART1_TX"
+		(at 248.92 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "619b439a-76f5-486e-a737-be6ab6ff0936")
+	)
+	(label "UART0_TX"
+		(at 248.92 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65dea581-f16f-4de2-996f-9c4af445d986")
+	)
+	(label "BUZZ_PWM"
 		(at 105.41 72.39 0)
 		(effects
 			(font
@@ -5230,16 +5320,6 @@
 		)
 		(uuid "b31fb248-72e2-4bcc-ab09-257949490d45")
 	)
-	(label "UART0_TX"
-		(at 118.11 120.65 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bfccc6cc-d718-486f-9198-c41fcac4df3c")
-	)
 	(label "L_IS"
 		(at 195.58 46.99 180)
 		(effects
@@ -5249,16 +5329,6 @@
 			(justify right bottom)
 		)
 		(uuid "c3c41f3f-8c50-4c86-8851-e50780b15bba")
-	)
-	(label "UART1_RX"
-		(at 125.73 120.65 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c999eed5-6336-4bdb-b107-a6c916788512")
 	)
 	(label "LPN_R"
 		(at 105.41 90.17 0)
@@ -5279,6 +5349,16 @@
 			(justify left bottom)
 		)
 		(uuid "d438d98d-e5ef-490e-af6c-2e80eac02c9c")
+	)
+	(label "UART0_RX"
+		(at 248.92 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d925d9d1-1c72-4b6c-b8fd-dce20b1025a8")
 	)
 	(label "INT"
 		(at 119.38 24.13 180)
@@ -5621,6 +5701,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "power:GND")
 		(at 95.25 138.43 180)
 		(unit 1)
@@ -5699,8 +5780,10 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "power:+5V")
-		(at 210.82 109.22 90)
+		(at 205.74 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5710,8 +5793,13 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05267e95-d83d-4b1b-9017-2deb1a1948cd")
+<<<<<<< Updated upstream
 		(property "Reference" "#PWR021"
 			(at 214.63 109.22 0)
+=======
+		(property "Reference" "#PWR041"
+			(at 209.55 104.14 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5722,7 +5810,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 207.01 109.2199 90)
+			(at 201.93 104.1399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5733,7 +5821,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 109.22 0)
+			(at 205.74 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5744,7 +5832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 109.22 0)
+			(at 205.74 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5755,7 +5843,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 210.82 109.22 0)
+			(at 205.74 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5779,7 +5867,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 133.35 180)
+		(at 224.79 125.73 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5788,9 +5876,15 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< Updated upstream
 		(uuid "06923b8f-74d4-406e-8827-0963d68b727c")
 		(property "Reference" "#PWR056"
 			(at 167.64 127 0)
+=======
+		(uuid "05cdcdca-104d-4e4a-b237-a82e1268af72")
+		(property "Reference" "#PWR050"
+			(at 218.44 125.73 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5801,17 +5895,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 128.27 0)
+			(at 220.98 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 133.35 0)
+			(at 224.79 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5822,7 +5917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 133.35 0)
+			(at 224.79 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5833,7 +5928,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 133.35 0)
+			(at 224.79 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5844,12 +5939,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "98ce60f3-99a4-455b-83dc-441a8db3d74c")
+			(uuid "1052ab76-c23c-4591-b81e-92f07f2b1e51")
 		)
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+<<<<<<< Updated upstream
 					(reference "#PWR056")
+=======
+					(reference "#PWR050")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -5929,6 +6028,85 @@
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 146.05 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0db6f70a-b748-40b7-9cc4-7662e3beb5e7")
+		(property "Reference" "#PWR052"
+			(at 234.95 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 146.0499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d0828f6-97dd-4b60-8be0-31a968fde34b")
+		)
+		(instances
+			(project "Autonomous_Rover"
+				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -6705,8 +6883,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 97.79 138.43 180)
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 254 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6715,30 +6893,38 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< Updated upstream
 		(uuid "23656eac-461b-4936-b59c-d15e35848ae4")
 		(property "Reference" "#PWR02"
 			(at 97.79 132.08 0)
 			(hide yes)
+=======
+		(uuid "28668133-e465-4969-8187-278d95a72476")
+		(property "Reference" "J17"
+			(at 256.54 146.0499 0)
+>>>>>>> Stashed changes
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 97.79 133.35 0)
+		(property "Value" "UART_3V"
+			(at 256.54 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 97.79 138.43 0)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 254 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6749,7 +6935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 138.43 0)
+			(at 254 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6759,8 +6945,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 138.43 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 254 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6769,13 +6955,23 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "4"
+			(uuid "da5374d4-f2d2-45b1-808f-8fa503119fe9")
+		)
+		(pin "2"
+			(uuid "e6eb8faf-269d-4b70-b20c-f5162051067a")
 		)
 		(pin "1"
-			(uuid "98ce60f3-99a4-455b-83dc-441a8db3d74d")
+			(uuid "b6e96ce3-b426-4e79-89d4-cc9c2d001bfc")
+		)
+		(pin "3"
+			(uuid "d05b7dee-17f8-4462-abf2-97bedf4936db")
 		)
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+<<<<<<< Updated upstream
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -6855,6 +7051,9 @@
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
 					(reference "#PWR08")
+=======
+					(reference "J17")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -7311,8 +7510,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 165.1 133.35 180)
+		(lib_id "Device:C")
+		(at 243.84 121.92 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7321,9 +7520,26 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< Updated upstream
 		(uuid "3ca11f5e-3222-4f94-9ef5-dcb6040f62f3")
 		(property "Reference" "#PWR09"
 			(at 165.1 127 0)
+=======
+		(uuid "3dcbc8ef-b36a-45b2-9be3-befc2fd990dc")
+		(property "Reference" "C9"
+			(at 240.03 123.1901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 240.03 120.6501 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7331,20 +7547,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 165.1 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 133.35 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 242.8748 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7355,7 +7562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 133.35 0)
+			(at 243.84 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7365,8 +7572,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 133.35 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7375,14 +7582,32 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 243.84 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b8e78e1e-e3aa-4bb6-a8ae-be819102a844")
 		)
 		(pin "1"
-			(uuid "98ce60f3-99a4-455b-83dc-441a8db3d74f")
+			(uuid "c2c7b90f-538b-412f-848b-4592e08b95e9")
 		)
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+<<<<<<< Updated upstream
 					(reference "#PWR09")
+=======
+					(reference "C9")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -7480,8 +7705,13 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41e961a7-7347-4eb0-bf24-46c9a09fbe51")
+<<<<<<< Updated upstream
 		(property "Reference" "#PWR011"
 			(at 160.02 21.59 0)
+=======
+		(property "Reference" "#PWR033"
+			(at 163.83 21.59 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7541,7 +7771,11 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+<<<<<<< Updated upstream
 					(reference "#PWR011")
+=======
+					(reference "#PWR033")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -7559,7 +7793,11 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43b64ae1-749a-4d3c-bc7b-db59cee5a4cd")
+<<<<<<< Updated upstream
 		(property "Reference" "LIGHT1"
+=======
+		(property "Reference" "J14"
+>>>>>>> Stashed changes
 			(at 218.44 111.7601 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7572,7 +7810,6 @@
 		)
 		(property "Value" "BEAM_LIGHT"
 			(at 218.44 109.2201 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7635,7 +7872,11 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+<<<<<<< Updated upstream
 					(reference "LIGHT1")
+=======
+					(reference "J14")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -7666,7 +7907,6 @@
 		)
 		(property "Value" "VL53L5X_RIGHT"
 			(at 31.75 46.9901 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7902,8 +8142,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 76.2 135.89 0)
+		(lib_id "Device:C")
+		(at 245.11 142.24 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7912,9 +8152,26 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< Updated upstream
 		(uuid "4a8383af-df43-4eb0-9c2e-e48492ca572d")
 		(property "Reference" "#PWR015"
 			(at 76.2 139.7 0)
+=======
+		(uuid "59b9c425-a512-4c98-b30e-cc6f6ac59f23")
+		(property "Reference" "C10"
+			(at 241.3 143.5101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 241.3 140.9701 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7922,21 +8179,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 76.2 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 135.89 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 244.1448 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7947,7 +8194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 135.89 0)
+			(at 245.11 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7957,8 +8204,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 76.2 135.89 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 245.11 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7967,14 +8214,32 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 245.11 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b825734e-3ac1-4de2-93a4-fcfd6fbef22f")
 		)
 		(pin "1"
-			(uuid "1d0e9717-9715-4a29-a20c-8541ccca88ba")
+			(uuid "faf05895-7798-4a50-afb5-5ffa84abaa99")
 		)
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+<<<<<<< Updated upstream
 					(reference "#PWR015")
+=======
+					(reference "C10")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -8090,7 +8355,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ec1a8c5-5dc2-4dd3-9982-1b9cca762bff")
+<<<<<<< Updated upstream
 		(property "Reference" "ESP32_R1"
+=======
+		(property "Reference" "J10"
+>>>>>>> Stashed changes
 			(at 148.59 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8102,7 +8371,6 @@
 		)
 		(property "Value" "ESP32_RIGHT"
 			(at 148.59 48.26 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8224,7 +8492,89 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+<<<<<<< Updated upstream
 					(reference "ESP32_R1")
+=======
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66bb6f61-8cab-45a0-83bf-1e88c9c6c628")
+		(property "Reference" "#PWR056"
+			(at 156.21 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b3dd5d4-112b-44c6-bdc3-bbed27031d2b")
+		)
+		(instances
+			(project "Autonomous_Rover"
+				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+					(reference "#PWR056")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -8254,7 +8604,6 @@
 		)
 		(property "Value" "AMS1117-3.3"
 			(at 156.21 17.78 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8339,7 +8688,6 @@
 		)
 		(property "Value" "VL53L5X_LEFT"
 			(at 36.83 99.0601 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8510,6 +8858,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 165.1 138.43 270)
 		(unit 1)
@@ -8607,6 +8956,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "power:GND")
 		(at 201.93 39.37 0)
 		(mirror x)
@@ -8696,7 +9047,11 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "789de0be-c310-47f9-ad91-240ce13be4c2")
+<<<<<<< Updated upstream
 		(property "Reference" "MOTOR1"
+=======
+		(property "Reference" "J15"
+>>>>>>> Stashed changes
 			(at 236.22 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8708,7 +9063,6 @@
 		)
 		(property "Value" "MOTOR"
 			(at 236.22 55.88 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8794,7 +9148,11 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+<<<<<<< Updated upstream
 					(reference "MOTOR1")
+=======
+					(reference "J15")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -8802,7 +9160,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 231.14 29.21 90)
+		(at 217.17 24.13 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8813,8 +9171,13 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aee3ab2-5643-4b4d-b0f7-552c4d9f8a47")
+<<<<<<< Updated upstream
 		(property "Reference" "#PWR042"
 			(at 234.95 29.21 0)
+=======
+		(property "Reference" "#PWR045"
+			(at 220.98 24.13 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8825,7 +9188,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 227.33 29.2099 90)
+			(at 213.36 24.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8836,7 +9199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 29.21 0)
+			(at 217.17 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8847,7 +9210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 29.21 0)
+			(at 217.17 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8858,7 +9221,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 231.14 29.21 0)
+			(at 217.17 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8971,7 +9334,11 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "819a7cca-e259-4814-9d12-a310d8b8ab38")
+<<<<<<< Updated upstream
 		(property "Reference" "POWER1"
+=======
+		(property "Reference" "J13"
+>>>>>>> Stashed changes
 			(at 208.28 120.904 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8983,7 +9350,6 @@
 		)
 		(property "Value" "Power Input"
 			(at 208.28 123.444 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8992,7 +9358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal"
 			(at 208.28 127 0)
 			(hide yes)
 			(show_name no)
@@ -9045,16 +9411,18 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+<<<<<<< Updated upstream
 					(reference "POWER1")
+=======
+					(reference "J13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 231.14 31.75 270)
-		(mirror x)
+		(lib_id "power:+3V3")
+		(at 241.3 138.43 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9063,9 +9431,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "83cceaa3-9324-428f-9579-7e61fb188255")
-		(property "Reference" "#PWR043"
-			(at 224.79 31.75 0)
+		(uuid "8231c187-20ac-479b-be61-086c8c835c25")
+		(property "Reference" "#PWR051"
+			(at 245.11 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9075,19 +9443,19 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 227.33 31.7499 90)
+		(property "Value" "+3V3"
+			(at 237.49 138.4299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 31.75 0)
+			(at 241.3 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9098,7 +9466,93 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 31.75 0)
+			(at 241.3 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 241.3 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd23a30e-35e5-4f37-8370-98f2ebb8438f")
+		)
+		(instances
+			(project "Autonomous_Rover"
+				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+					(reference "#PWR051")
+>>>>>>> Stashed changes
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 31.75 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83cceaa3-9324-428f-9579-7e61fb188255")
+<<<<<<< Updated upstream
+		(property "Reference" "#PWR043"
+			(at 224.79 31.75 0)
+=======
+		(property "Reference" "#PWR046"
+			(at 204.47 31.75 0)
+>>>>>>> Stashed changes
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 31.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9109,7 +9563,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 31.75 0)
+			(at 210.82 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9291,8 +9745,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 73.66 140.97 270)
+		(lib_id "power:GND")
+		(at 95.25 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9301,6 +9755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< Updated upstream
 		(uuid "858816cb-2c53-407b-97f6-b1f831834df9")
 		(property "Reference" "3V3"
 			(at 78.74 139.6999 90)
@@ -9315,6 +9770,11 @@
 		)
 		(property "Value" "3V Socket"
 			(at 78.74 142.2399 90)
+=======
+		(uuid "85834f68-ca6d-48de-acdb-be55e53c7d30")
+		(property "Reference" "#PWR054"
+			(at 95.25 167.64 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9322,11 +9782,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 73.66 140.97 0)
+		(property "Value" "GND"
+			(at 95.25 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9337,7 +9806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 140.97 0)
+			(at 95.25 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9347,19 +9816,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 73.66 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 73.66 140.97 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9370,18 +9828,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "e25ced32-6cd0-4ba3-b3ae-c34733b90c4a")
-		)
-		(pin "3"
-			(uuid "ee4bbf35-965c-457c-b165-756a1755704e")
-		)
-		(pin "2"
-			(uuid "b50b66a8-5d17-4cf6-9e76-f17b556de3b6")
+			(uuid "bf9e45ba-67ec-434d-a91c-52538a5cdefe")
 		)
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+<<<<<<< Updated upstream
 					(reference "3V3")
+=======
+					(reference "#PWR054")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -9412,7 +9868,6 @@
 		)
 		(property "Value" "VEML7700"
 			(at 36.83 22.8601 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9901,8 +10356,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 97.79 143.51 270)
+		(lib_id "Device:C")
+		(at 232.41 121.92 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9911,9 +10366,15 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< Updated upstream
 		(uuid "8c1055de-7563-4d44-8aec-6b6b43c11eb4")
 		(property "Reference" "GND1"
 			(at 102.87 142.2399 90)
+=======
+		(uuid "8cbc7d95-7e58-4c92-8839-f1d1799e0043")
+		(property "Reference" "C11"
+			(at 228.6 123.1901 0)
+>>>>>>> Stashed changes
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9923,8 +10384,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 102.87 144.7799 90)
+		(property "Value" "10uF"
+			(at 228.6 120.6501 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9935,8 +10396,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 97.79 143.51 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 231.4448 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9947,7 +10408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 143.51 0)
+			(at 232.41 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9957,8 +10418,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 97.79 143.51 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 232.41 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9968,8 +10429,8 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 97.79 143.51 0)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 232.41 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9980,17 +10441,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "10efb3cb-d680-4337-95d3-6f780c845f80")
-		)
-		(pin "3"
-			(uuid "d478168f-eb8e-4a24-bbf4-1054be6b8850")
+			(uuid "809d86e0-eab0-487f-813e-d911f61e3cb2")
 		)
 		(pin "1"
-			(uuid "1a10f0b5-1d2a-4e1b-a13e-7131632816f9")
+			(uuid "dc6cac33-7115-40f0-b201-47c88610d396")
 		)
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+<<<<<<< Updated upstream
 					(reference "GND1")
 					(unit 1)
 				)
@@ -10071,6 +10530,9 @@
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
 					(reference "#PWR013")
+=======
+					(reference "C11")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -10250,6 +10712,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "power:+3V3")
 		(at 73.66 135.89 0)
 		(unit 1)
@@ -10328,6 +10791,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 41.91 77.47 180)
 		(unit 1)
@@ -10352,7 +10817,6 @@
 		)
 		(property "Value" "VL53L5X_MID"
 			(at 39.37 76.2001 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10549,7 +11013,6 @@
 		)
 		(property "Value" "HC-SR04_MID"
 			(at 38.1 123.1899 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10625,6 +11088,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "power:+5V")
 		(at 165.1 119.38 0)
 		(unit 1)
@@ -10703,6 +11167,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "power:GND")
 		(at 50.8 50.8 90)
 		(unit 1)
@@ -11612,6 +12078,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "power:+5V")
 		(at 167.64 119.38 0)
 		(unit 1)
@@ -11769,6 +12236,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "Device:R")
 		(at 217.17 48.26 0)
 		(mirror x)
@@ -11864,8 +12333,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 165.1 124.46 270)
+		(lib_id "Device:C")
+		(at 227.33 27.94 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11874,9 +12343,15 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< Updated upstream
 		(uuid "bc98bcc2-fb95-4c72-8e42-8c11fcd177c7")
 		(property "Reference" "5V1"
 			(at 170.18 123.1899 90)
+=======
+		(uuid "b96cc6d8-e7cd-4e62-a04a-81cccd9fa778")
+		(property "Reference" "C12"
+			(at 223.52 29.2101 0)
+>>>>>>> Stashed changes
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11886,8 +12361,13 @@
 				(justify left)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Value" "5V Socket"
 			(at 170.18 125.7299 90)
+=======
+		(property "Value" "100nF"
+			(at 223.52 26.6701 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11898,8 +12378,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 165.1 124.46 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 226.3648 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11910,7 +12390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 124.46 0)
+			(at 227.33 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11920,8 +12400,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 165.1 124.46 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 227.33 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11931,8 +12411,8 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 165.1 124.46 0)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 227.33 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11943,18 +12423,97 @@
 			)
 		)
 		(pin "2"
-			(uuid "7fb033b1-89ec-44c1-a7bb-904b37cca783")
-		)
-		(pin "3"
-			(uuid "91ce993b-250a-4242-9409-5e2927b9d96f")
+			(uuid "78de856c-c8e8-4a26-a3ad-0bf533d5a123")
 		)
 		(pin "1"
-			(uuid "f72ec437-7f38-4438-ae77-07bf92f350fa")
+			(uuid "472036db-147c-4f75-92da-f8c6c2693132")
 		)
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+<<<<<<< Updated upstream
 					(reference "5V1")
+=======
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf774aa4-c048-45a9-8331-d902624a1844")
+		(property "Reference" "#PWR055"
+			(at 125.73 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c82764c-6fa3-44c7-889d-54daf825b905")
+		)
+		(instances
+			(project "Autonomous_Rover"
+				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+					(reference "#PWR055")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -12421,7 +12980,6 @@
 		)
 		(property "Value" "BNO085"
 			(at 83.82 26.6701 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12525,7 +13083,11 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcc36b61-1bd9-4189-ace6-9a3baf810f99")
+<<<<<<< Updated upstream
 		(property "Reference" "ESP32_L1"
+=======
+		(property "Reference" "J9"
+>>>>>>> Stashed changes
 			(at 123.19 46.228 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12538,7 +13100,6 @@
 		)
 		(property "Value" "ESP32_LEFT"
 			(at 123.19 48.768 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12661,7 +13222,11 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+<<<<<<< Updated upstream
 					(reference "ESP32_L1")
+=======
+					(reference "J9")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -12679,7 +13244,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd7c8814-6c76-4dfc-952a-acfc021b3db3")
+<<<<<<< Updated upstream
 		(property "Reference" "#PWR026"
+=======
+		(property "Reference" "#PWR053"
+>>>>>>> Stashed changes
 			(at 254 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -12740,15 +13309,19 @@
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+<<<<<<< Updated upstream
 					(reference "#PWR026")
+=======
+					(reference "#PWR053")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 120.65 115.57 90)
+		(lib_id "Device:C")
+		(at 207.01 107.95 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12757,19 +13330,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< Updated upstream
 		(uuid "e02d41f6-72e3-486d-9695-b4095e3221ca")
 		(property "Reference" "UART1"
 			(at 121.92 109.22 90)
+=======
+		(uuid "df5dd01f-a49d-4dd4-8264-387781c8c1f6")
+		(property "Reference" "C13"
+			(at 203.2 109.2201 0)
+>>>>>>> Stashed changes
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Value" "EXTRA GPIO"
 			(at 121.92 111.76 90)
+=======
+		(property "Value" "10uF"
+			(at 203.2 106.6801 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12777,10 +13362,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 120.65 115.57 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 206.0448 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12791,7 +13377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 115.57 0)
+			(at 207.01 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12801,8 +13387,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 120.65 115.57 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 207.01 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12812,8 +13398,8 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 120.65 115.57 0)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 207.01 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12822,23 +13408,21 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "4"
-			(uuid "0e49a47c-613b-498a-aae0-c0265ee62335")
-		)
-		(pin "3"
-			(uuid "4697fa91-8a77-45e4-954f-6275680fdc6d")
 		)
 		(pin "2"
-			(uuid "084cff2f-41e9-4cbe-97cb-bb0ec8a3402f")
+			(uuid "733b9b0a-54ab-4f95-a4cd-742acc721176")
 		)
 		(pin "1"
-			(uuid "163d1108-7d1f-45eb-a820-06e2fab5b82c")
+			(uuid "0bb078be-ace6-4514-ad67-90dfdf90e2f4")
 		)
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+<<<<<<< Updated upstream
 					(reference "UART1")
+=======
+					(reference "C13")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -13019,7 +13603,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 162.56 119.38 0)
+		(at 227.33 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13028,9 +13612,15 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< Updated upstream
 		(uuid "f1174711-b1f4-46a8-9aff-0024227d096e")
 		(property "Reference" "#PWR034"
 			(at 162.56 123.19 0)
+=======
+		(uuid "f1574062-0149-49d9-8d51-bc73653335cf")
+		(property "Reference" "#PWR049"
+			(at 231.14 118.11 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13041,18 +13631,18 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 162.56 114.3 0)
-			(hide yes)
+			(at 223.52 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 119.38 0)
+			(at 227.33 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13063,7 +13653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 119.38 0)
+			(at 227.33 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13074,7 +13664,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 162.56 119.38 0)
+			(at 227.33 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13085,12 +13675,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "16515cba-9156-44da-8661-620a4c3b78f5")
+			(uuid "f80bde86-f0fe-4a94-bcd3-be9a0bd14587")
 		)
 		(instances
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+<<<<<<< Updated upstream
 					(reference "#PWR034")
+=======
+					(reference "#PWR049")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -13370,7 +13964,6 @@
 		)
 		(property "Value" "Buzzer"
 			(at 270.51 90.1699 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13423,6 +14016,94 @@
 			(project "Autonomous_Rover"
 				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
 					(reference "BUZZER1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 254 128.27 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc15c22f-82e1-4e23-8319-e267b4d77721")
+		(property "Reference" "J16"
+			(at 256.54 128.2701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UART_5V"
+			(at 256.54 125.7301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 254 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 254 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "63b888c9-0312-4738-b569-999d9453533e")
+		)
+		(pin "3"
+			(uuid "d562f270-2afc-4fe9-b01e-25ce60ed071f")
+		)
+		(pin "1"
+			(uuid "e1d8ade6-a9c0-45a0-8bdb-8bfbba803160")
+		)
+		(pin "4"
+			(uuid "694c8703-a4ae-4741-9e53-5720c97a9b58")
+		)
+		(instances
+			(project "Autonomous_Rover"
+				(path "/b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -13519,6 +14200,7 @@
 			)
 		)
 	)
+<<<<<<< Updated upstream
 	(symbol
 		(lib_id "power:+3V3")
 		(at 120.65 52.07 90)
@@ -13598,6 +14280,8 @@
 			)
 		)
 	)
+=======
+>>>>>>> Stashed changes
 	(sheet_instances
 		(path "/"
 			(page "1")
