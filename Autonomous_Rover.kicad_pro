@@ -479,7 +479,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -549,7 +549,7 @@
         "pattern": "+3V3"
       },
       {
-        "netclass": "Power",
+        "netclass": "Default",
         "pattern": "GND"
       }
     ]
@@ -733,7 +733,7 @@
         "uuid": "b58decf4-10ac-4eb9-ad77-3c49a9fe078c"
       }
     ],
-    "used_designators": "VL53L5X_L1,VL53L5X_R1,HC\\-SR04_M1,PPTC1,R10K1-3,H1-3,ESP32_R1,C10UF1-2,Q1-3,MOTOR1,POWER1,BUZZER1,U1-3,UART1,C1-13,ESP32_LEFT1,VL53L5X_M1,5V1,D1,F1,R1-9,R1K1-2,LIGHT1,GND1-2,C100NF1-6,VEML1,BZ1,#PWR1-57,3V1,3V3OUT1,#FLG1-3,BNO1,M2_1,J1-27,M1-2",
+    "used_designators": "VL53L5X_L1,VL53L5X_R1,HC\\-SR04_M1,PPTC1,R10K1-3,H1-3,ESP32_R1,C10UF1-2,Q1-3,MOTOR1,POWER1,BUZZER1,C7_1-3,U1-3,UART1,C1-13,ESP32_LEFT1,VL53L5X_M1,5V1,D1,F1,R1-9,R1K1-2,LIGHT1,GND1-2,C100NF1-6,VEML1,BZ1,#PWR1-68,3V1,3V3OUT1,#FLG1-3,BNO1,M2_1,J1-27,M1-2",
     "variants": []
   },
   "sheets": [
