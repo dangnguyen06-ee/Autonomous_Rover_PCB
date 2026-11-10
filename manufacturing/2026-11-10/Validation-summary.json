@@ -1,0 +1,32 @@
+{
+  "design_files_unchanged": true,
+  "pcb_errors": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "pcb_library_mismatch_warnings": 52,
+  "erc_errors": 0,
+  "erc_off_grid_warnings": 44,
+  "zip": "Parker_Rover_Rev1.0_2026-11-10.zip",
+  "zip_sha256": "7719798c0fb9eea6a94ef933f8542841298f48b9eb0d671e94f730197b17ff71",
+  "files": {
+    "Autonomous_Rover-B_Cu.gbl": "7da7d631172937914575c7845ce536cd21f4606a50fcef083ba31aedb186d0d9",
+    "Autonomous_Rover-B_Mask.gbs": "32465bef518bde0f1c9e368bc5c37a193275d6f037620570949ae9c617a8eb15",
+    "Autonomous_Rover-B_Silkscreen.gbo": "56df4b8acca28fdd1e1e642e7a1f6e0bfc9692175873a3e8f79a4d8b3c5af749",
+    "Autonomous_Rover-Edge_Cuts.gm1": "4458c07083b8725617544f139cad6486c7992294902e19ae81a319c848000e14",
+    "Autonomous_Rover-F_Cu.gtl": "69de2b36b4ba47637156ff0d85215d58962e0620762c243bbc00d4288f2624fc",
+    "Autonomous_Rover-F_Mask.gts": "b3fab0bfcbc153829cf713ba24ba5ca79f0144efcd80a5e134acae1b2e0ee024",
+    "Autonomous_Rover-F_Paste.gtp": "69074019187cc563e3cfbd2e4c6fae0f7ae5bf0634a1cc0cd327f6774ef9507e",
+    "Autonomous_Rover-F_Silkscreen.gto": "281f97e8b79c73c1796003342f08766023efcbd957470d7ec91bccecafb819e5",
+    "Autonomous_Rover-NPTH.drl": "7cb9f01c227db10c0f7984cf9e3a133daf12fa3a35551bb2b8d451fc8cc322b8",
+    "Autonomous_Rover-PTH.drl": "93dce3022715af69b7b004e636746230ab2782a71c0521247df41721222fff5d",
+    "Autonomous_Rover-job.gbrjob": "ebbb5ebbf83775eb24867d5f8414cd401ecab722a6223f9480b3f2b035b3b2b3"
+  },
+  "source_hashes": {
+    "Output.kicad_sch": "ae91822f0d0a2705739be25e954a1be248517422d2ebe87535bb0a845868f3f1",
+    "Autonomous_Rover.kicad_pcb": "2145cecb0b32acc75873f21bcb75c867269e660bc64bbf41530f4e2c863b58d4",
+    "Power.kicad_sch": "2b93912061b42a3cc48b182ed48e62e967aa23a1efebdfe13ef5556cdd3f3fb5",
+    "Autonomous_Rover.kicad_sch": "79f522f292a3a700622dee5186a2b7934b1310f311e86130c481652adb7437ab",
+    "Input.kicad_sch": "0c4dcd1136c1084696f9da146404d463dbd0b6e3af762be7b818a4352bc335ff",
+    "Autonomous_Rover.kicad_pro": "42377ff6222b2991e1f3158a7b16ac04fe60150f64836edf16ca9f3a6570d148"
+  }
+}
